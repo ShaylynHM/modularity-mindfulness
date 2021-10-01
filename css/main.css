@@ -17,6 +17,21 @@ html {
   font-style: normal;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+aside {
+display: grid;
+grid-template-areas: masthead;
+justify-items: center;
+}
+
+br {
+  justify-items: center;
+}
+
 body {
   margin: 0;
 }
@@ -26,6 +41,22 @@ img {
   width: 100%;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: stretch;
+
+}
+
 li {
   list-style-type: none;
+
+}
+
+footer {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border-top-style: solid;
 }
