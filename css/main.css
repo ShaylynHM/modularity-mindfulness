@@ -113,3 +113,10 @@ footer {
   text-align: center;
   border-top: .2rem #e2e2e2 solid;
 }
+
+@media only screen and (min-width: 38em) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
