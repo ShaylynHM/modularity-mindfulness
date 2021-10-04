@@ -57,7 +57,7 @@ h2 {
   display: flex;
   flex-direction: column;
   font-size: 1em;
-  margin: 0;
+  margin: 1.5rem 0;
   padding: 0;
 }
 
@@ -85,6 +85,12 @@ article a {
   padding: .5em 1em .6em;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
 div {
   border-top: .2rem #e2e2e2 solid;
   border-bottom: .2rem #e2e2e2 solid;
@@ -98,19 +104,8 @@ div i {
   font-size: 2rem;
 }
 
-
-section {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  align-items: stretch; */
-
-}
-
-
 footer {
-  /* margin: 1rem;
-  display: flex;
-  justify-content: center;
-  border-top-style: solid; */
+  margin: 0;
+  text-align: center;
+  border-top: .2rem #e2e2e2 solid;
 }
