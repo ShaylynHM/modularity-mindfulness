@@ -17,10 +17,6 @@ html {
   font-style: normal;
 }
 
-body {
-  margin: 0;
-}
-
 img {
   display: block;
   width: 100%;
@@ -117,6 +113,7 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
   section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -133,4 +130,5 @@ footer {
   h1 {
     align-items: flex-start;
   }
+
 }
